@@ -1,0 +1,28 @@
+/* .tittle {
+    font-size: 100px;
+}
+
+
+
+@media only sceen and (max-width: 600px) { */
+
+    /* Dùng để định nghĩa các kiểu CSS cho các thiết bị có chiều rộng tối đa là 600px. */
+    /* .tittle {
+        font-size: 50px;
+    }
+} */
+ body{
+    background-color: #151937;
+    color: white;
+ }
+
+ .text-gradient{
+    background-color: linear-gradient(to right, pink, orange);
+    /* background-color: linear-gradient(to right, pink, orange) dùng để tạo ra một gradient từ màu hồng sang màu cam. */
+    /* background-clip: text; */
+    -webkit-background-clip: text;
+    /* -webkit có nghĩa là gì: webkit là một engine được sử dụng để render các trang web trên trình duyệt Safari và một số trình duyệt khác. */
+    /* -webkit-background-clip: text dùng để cắt nền gradient theo hình dạng của chữ. */
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-text-fill-color: transparent dùng để làm cho màu chữ trong suốt, chỉ hiển thị gradient nền. */
+}
